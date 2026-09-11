@@ -1,1 +1,47 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fdf5f9;
+    color: #333;
+}
 
+header {
+    text-align: center;
+    background-color: #e8b4c8;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.producto strong {
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #e8b4c8;
+}
